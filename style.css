@@ -85,7 +85,7 @@ a{
  #img2{
     height: 90vh;
     background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
   width: 50%;
   display: flex;
   margin-top: 2%;
@@ -112,16 +112,22 @@ a{
 
 
  h4{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     font-size: 25px;
     color: black;
-    width: 70%;
+    width: 70%;font-family: "Rubik";
     
     border: 4px solid white;
     padding: 3%;
     border-radius: 20px;
+ }
+
+ p3{
+    color: white;
+    font-size: 30px; 
+    font-family: "Rubik";
  }
 .t1{
     display: flex;
@@ -132,11 +138,10 @@ a{
 
 
 .t2{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-    display: flex;
-   gap: 10%;
+    margin-top: 5%;
     width: 100%;
     height: 50vh;
 }
@@ -147,4 +152,16 @@ p{
    color: white;
    height: max-content;
    
+}
+
+#btn1{
+    width: 50%;
+    padding: 4%;
+    border: none;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius:20px;
+    font-size: 15px;
+
 }
