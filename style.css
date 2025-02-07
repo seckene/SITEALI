@@ -86,10 +86,10 @@ a{
     height: 90vh;
     background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
     background-repeat: no-repeat;
-  width: 50%;
+  width: 100%;
   display: flex;
   margin-top: 2%;
-  margin: 1%;
+  margin: 0.5%;
  
   border-radius: 20px;
  }
@@ -97,12 +97,15 @@ a{
 
  #text{
     height:90vh;
-  width: 50%;
+  width: 95%;
   border: 3px solid white;
-  background-color: rgb(119, 116, 116);
+  
   display: flex;
- 
-  margin-left: 0.5%;
+background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+  margin-left: 0%;
  text-align: center;
   display: block;
   justify-content: center;
@@ -111,7 +114,7 @@ a{
   margin: 1%;
  }
 
-
+ 
  h4{
     display: block;
     justify-content: center;
@@ -147,54 +150,70 @@ a{
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 10%;
     width: 100%;
     height: 50vh;
 }
 
 p{
-  font-size: 20px;
+  font-size: 24px;
     font-family: "Rubik";
-   color: white;
-  
-   
+   color: black;
+   opacity: 100%;
+   transition: opacity 0.5s ease-in-out, visibility 1.5s ease-in-out;
+   visibility: hidden;
 }
 
 #btn1{
     
-    width: 50%;
-    padding: 4%;
+    width: 40%;
+    padding: 3%;
     border: none;
     background-color: black;
     border: 2px solid white;
     color: white;
     border-radius:20px;
     font-size: 20px;
+    margin-top: 5%;
+    font-family: "Oswald";
+}
 
+.ctrl{
+    width: 100%;
 }
 
 @media (min-width:955px) and (max-width:1075px) {
    
+
+
+
+
+
+ 
  #img2{
-    height: 100vh;
+    height: 115vh;
     background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
     background-repeat: no-repeat;
-  width: 50%;
+  width: 100%;
   display: flex;
   margin-top: 2%;
-  margin: 1%;
+  margin: 0.5%;
  
   border-radius: 20px;
  }
 
 
  #text{
-    height:100vh;
-  width: 50%;
+    height:115vh;
+  width: 95%;
   border: 3px solid white;
-  background-color: rgb(119, 116, 116);
+  
   display: flex;
- 
-  margin-left: 0.5%;
+background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+  margin-left: 0%;
  text-align: center;
   display: block;
   justify-content: center;
@@ -207,34 +226,39 @@ p{
 
 @media (min-width:725px) and (max-width:955px) {
    
-    #img2{
-       height: 120vh;
-       background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
-       background-repeat: no-repeat;
-     width: 50%;
-     display: flex;
-     margin-top: 2%;
-     margin: 1%;
     
-     border-radius: 20px;
-    }
-   
-   
-    #text{
-       height:120vh;
-     width: 50%;
-     border: 3px solid white;
-     background-color: rgb(119, 116, 116);
-     display: flex;
-    
-     margin-left: 0.5%;
-    text-align: center;
-     display: block;
-     justify-content: center;
-     align-items: center;
-     border-radius: 25px;
-     margin: 1%;
-    }
+ #img2{
+    height: 125vh;
+    background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
+    background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  margin-top: 2%;
+  margin: 0.5%;
+ 
+  border-radius: 20px;
+ }
+
+
+ #text{
+    height:125vh;
+  width: 95%;
+  border: 3px solid white;
+  
+  display: flex;
+background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+  margin-left: 0%;
+ text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: 1%;
+ }
+
     #btn1{
     
         width: 70%;
@@ -308,6 +332,9 @@ p{
         color: white;
         border-radius:20px;
         font-size: 20px;
+        margin-top: 20%;
+
+
     
     }
     li {
@@ -356,6 +383,36 @@ p{
     color: white !important;
 
 }
+    .t2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+    height: 50vh;
+}
+.t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
     
-      
+}#btn1{
+    
+    width: 30%;
+    padding: 3%;
+    border: none;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius:20px;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.ctrl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
    }
