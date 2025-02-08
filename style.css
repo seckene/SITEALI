@@ -87,10 +87,10 @@ a{
     background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
     background-repeat: no-repeat;
   width: 100%;
-  display: flex;
+  display: block;
   margin-top: 2%;
   margin: 0.5%;
- 
+opacity: 100%;
   border-radius: 20px;
  }
 
@@ -216,6 +216,13 @@ display: none;
 
 .span{
     display: none;
+}
+
+.the{
+    
+    display: none;
+
+
 }
 
 @media (min-width:955px) and (max-width:1075px) {
@@ -907,8 +914,9 @@ a{
     }
     #img2{
        height: 120vh;
-       background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
+       background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
        background-repeat: no-repeat;
+       opacity: 90%;
      width: 100%;
     display: flex;
      justify-content: center;
@@ -916,16 +924,16 @@ a{
      display: flex;
      margin-top: 0%;
      margin-left: 0%;
-    
      border-radius: 0px;
     }
     
     
     #text{
-       height:120vh;
+       height:140vh;
      width: 100%;
-     
-     background-color: rgb(119, 116, 116);
+     background-image: url("https://i.pinimg.com/736x/60/97/21/6097215951250a62e4c7b967001efb5f.jpg");
+     background-repeat: no-repeat;
+     opacity: 70%;
      display: flex;
      border: 0px solid white;
     
@@ -978,6 +986,7 @@ a{
         border-bottom:2px solid black ;
         display: none;
         align-items: center;
+        z-index: 1;
     }
      
     
@@ -1005,7 +1014,14 @@ a{
         color: black ;
     
     }
-    
+    p{
+        font-size: 24px;
+          font-family: "Rubik";
+         color:whitesmoke;
+         opacity: 100%;
+         transition: opacity 0.5s ease-in-out, visibility 1.5s ease-in-out;
+         visibility: hidden;
+      }
     a{
         color: white;
         text-decoration: underline white;
@@ -1050,4 +1066,46 @@ a{
     }
     
     
+#btn1{
+    
+    width: 50%;
+    padding: 3%;
+    border: none;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius:20px;
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: "Oswald";
+}
+
+p4{
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.the{
+    margin-top: 40%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+
+
+}
+.carte{
+    margin-top: 1%;
+    width: 100%;
+    border: 2px solid black;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
     }
