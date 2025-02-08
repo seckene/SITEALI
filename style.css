@@ -913,8 +913,9 @@ a{
         margin: 5%;
     }
     #img2{
+        display: none;
        height: 120vh;
-       background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
+       ;
        background-repeat: no-repeat;
        opacity: 80%;
        
@@ -1099,7 +1100,7 @@ p4{
     align-items: center;
     display: block;
 background-color: rgba(0, 0, 0, 0.384);
-border: 2px solid black;
+
 width: 90%;
 }
 .carte{
