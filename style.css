@@ -665,7 +665,7 @@ a{
 
 }
       
-@media (min-width:375px) and (max-width:535px) {
+@media (min-width:400px) and (max-width:535px) {
    
 
     .font {
@@ -862,7 +862,7 @@ a{
     
     }
        
-@media (min-width:230px) and (max-width:374px) {
+@media (min-width:230px) and (max-width:399px) {
    
 
     .font {
