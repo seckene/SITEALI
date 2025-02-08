@@ -916,7 +916,8 @@ a{
        height: 120vh;
        background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
        background-repeat: no-repeat;
-       opacity: 90%;
+       opacity: 80%;
+       
      width: 100%;
     display: flex;
      justify-content: center;
@@ -933,7 +934,7 @@ a{
      width: 100%;
      background-image: url("https://i.pinimg.com/736x/60/97/21/6097215951250a62e4c7b967001efb5f.jpg");
      background-repeat: no-repeat;
-     opacity: 70%;
+     opacity: 90%;
      display: flex;
      border: 0px solid white;
     
@@ -943,7 +944,7 @@ a{
      justify-content: center;
      align-items: center;
      border-radius: 0px;
-     margin: 0%;
+     margin-top: 0%;
     }
     .img2{
     
@@ -1015,10 +1016,11 @@ a{
     
     }
     p{
-        font-size: 24px;
+        font-size: 16px;
           font-family: "Rubik";
          color:whitesmoke;
-         opacity: 100%;
+         background-color: rgba(0, 0, 0, 0.322);
+         opacity: 90%;
          transition: opacity 0.5s ease-in-out, visibility 1.5s ease-in-out;
          visibility: hidden;
       }
@@ -1076,13 +1078,13 @@ a{
     color: white;
     border-radius:20px;
     font-size: 20px;
-    margin-top: 5%;
+    margin-top: 35%;
     font-family: "Oswald";
 }
 
 p4{
-    color: black;
-    font-size: 15px;
+    color: white;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -1090,22 +1092,30 @@ p4{
    
 }
 .the{
-    margin-top: 40%;
+    margin-top: 0%;
     margin-left: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
     display: block;
-
-
+background-color: rgba(0, 0, 0, 0.384);
+border: 2px solid black;
+width: 90%;
 }
 .carte{
     margin-top: 1%;
     width: 100%;
-    border: 2px solid black;
-    height: 50vh;
+   
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.t1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    
 }
     }
