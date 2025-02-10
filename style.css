@@ -235,19 +235,19 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color: whitesmoke;
+   background-color:rgba(12, 12, 12, 0.747);
     width: 100%;
  
     gap: 40px;
     grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
 }
 #bord {
-    border: 2px solid black;
- 
+    border: 1px solid black;
+ border-radius: 20px;
     justify-content: center;
     align-items: center;
-    width: 40%;
-    height: 45vh;
+    width: 45%;
+    height: 60vh;
     margin-top: 5%;
    
 }
@@ -312,6 +312,63 @@ align-items: center;
     gap: 20px;
     width: 100%;
  
+}
+.espase{
+
+margin-top: 2%;
+
+width: 100%;
+background-color: black;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.savant{
+    display: block;
+    width: 100%;
+}
+h5{
+    font-size: 20px;
+color: white;
+}
+
+
+.p0{
+   
+    width: 70%;
+    padding: 5%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: burlywood;
+}
+.p9{
+   
+    width: 70%;
+    padding: 5%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: burlywood;
+}
+.btn5{
+    
+    display: flex;
+    margin-top: 10%;
+    gap: 10px;
+
+}
+
+.NEXT{
+    color: white;
+    margin-top: 10%;
+    position:absolute;
+    right: 0;
+    margin-right: 5%;
 }
 
 @media (min-width:1076px) and (max-width:2000px) {
@@ -550,7 +607,13 @@ align-items: center;
      
      
     }
- 
+    .espase{
+
+     
+            display: none;
+            
+        }
+        
 
    
 }
@@ -672,6 +735,19 @@ background-size: cover;
         
        
     }
+    .espase{
+
+     
+        display: none;
+        
+    }
+    .espase{
+
+     
+        display: none;
+        
+    }
+    
 
    }
    
@@ -817,6 +893,19 @@ p{
     
    
 }
+.espase{
+
+     
+    display: none;
+    
+}
+.espase{
+
+     
+    display: none;
+    
+}
+
 
    }
 
@@ -1113,6 +1202,13 @@ background-color: black;
     
    
 }
+.espase{
+
+     
+    display: none;
+    
+}
+
 
 }
       
@@ -1327,7 +1423,7 @@ background-color: black;
         font-family:Georgia;
     }
     #text{
-        height:140vh;
+        height:190vh;
       width: 90%;
       background-image: url("https://i.pinimg.com/736x/e7/d7/f1/e7d7f173aaf65b7528c337e1337f2899.jpg");
       background-repeat: no-repeat;
@@ -1448,7 +1544,13 @@ background-color: black;
     
    
 }
-
+.NEXT{
+    color: white;
+    margin-top: 5%;
+    position:absolute;
+    right: 0;
+    margin-right: 8%;
+}
     }
        
 
@@ -1526,7 +1628,7 @@ background-color: black;
     
     
     #text{
-       height:140vh;
+       height:160vh;
      width: 90%;
      background-image: url("https://i.pinimg.com/736x/e7/d7/f1/e7d7f173aaf65b7528c337e1337f2899.jpg");
      background-repeat: no-repeat;
@@ -1869,7 +1971,7 @@ background-color: black;
     }
     #img2{
         display: none;
-       height: 120vh;
+       height: 160vh;
        background-image: url("https://i.pinimg.com/736x/a5/c9/3a/a5c93a87915559851fb4e11ecccd591c.jpg");
        background-repeat: no-repeat;
        opacity: 80%;
@@ -1886,7 +1988,7 @@ background-color: black;
     
     
     #text{
-       height:140vh;
+       height:150vh;
      width: 90%;
      background-image: url("https://i.pinimg.com/736x/e7/d7/f1/e7d7f173aaf65b7528c337e1337f2899.jpg");
      background-repeat: no-repeat;
@@ -2148,5 +2250,62 @@ background-color: black;
    
 }
 
+.espase{
+
+    margin-top: 2%;
+    
+    width: 100%;
+    background-color: black;
+        height: 45vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .savant{
+        display: block;
+        width: 100%;
+    }
+    h5{
+        font-size: 20px;
+    color: white;
+    }
+    
+    
+    .p0{
+       
+        width: 70%;
+        padding: 5%;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        color: burlywood;
+    }
+    .p9{
+       
+        width: 70%;
+        padding: 5%;
+        background-color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        color: burlywood;
+    }
+    .btn5{
+        
+        display: flex;
+        margin-top: 10%;
+        gap: 10px;
+    
+    }
+    
+    .NEXT{
+        color: white;
+        margin-top: 10%;
+        position:absolute;
+        right: 0;
+        margin-right: 5%;
+    }
 
     }
