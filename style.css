@@ -470,7 +470,7 @@ display: none;
     
 .choix{
  
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
    background-color: whitesmoke;
@@ -481,7 +481,7 @@ display: none;
 }
 #bord {
     border: 2px solid black;
- display: none;
+
     justify-content: center;
     align-items: center;
     width: 40%;
