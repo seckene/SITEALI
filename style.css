@@ -230,95 +230,6 @@ display: none;
 
 
 }
-.choix{
- 
-    display: none;
-    justify-content: center;
-    align-items: center;
-   background-color: whitesmoke;
-    width: 100%;
- 
-    gap: 40px;
-    grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
-}
-#bord {
-    border: 2px solid black;
- display: none;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 45vh;
-    margin-top: 5%;
-   
-}
-.carre1{
-    background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2024/08/564350149.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-.carre2{
-    background-image: url("https://media.istockphoto.com/id/482206266/fr/photo/dans-la-mecque-kaaba.jpg?s=612x612&w=0&k=20&c=hSBWNTjtfSZJthX6fG1dhucV3hT5ulOueAxcQjafOc4=");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.choix{
- 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: whitesmoke;
-    width: 100%;
- 
-    gap: 40px;
-    grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
-}
-#bord {
-    border: 2px solid black;
- 
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 45vh;
-    margin-top: 5%;
-   
-}
-.carre1{
-    background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2024/08/564350149.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-.carre2{
-    background-image: url("https://media.istockphoto.com/id/482206266/fr/photo/dans-la-mecque-kaaba.jpg?s=612x612&w=0&k=20&c=hSBWNTjtfSZJthX6fG1dhucV3hT5ulOueAxcQjafOc4=");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-p6{
-    margin-top: 5%;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-p4{
-    display: flex;
-    color: white;
-    font-size: 25px;
-margin-top: 5%;
-justify-content: center;
-align-items: center;
-   text-decoration: underline white;
- 
-}
-
-
-
-
 
 @media (min-width:1076px) and (max-width:2000px) {
     * {
@@ -556,17 +467,96 @@ align-items: center;
      
      
     }
-    .choix{
+    
+.choix{
  
-        display: block;
-        justify-content: center;
-        align-items: center;
-       background-color: whitesmoke;
-        width: 100%;
-     
-        gap: 40px;
-        grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
-    }
+    display: none;
+    justify-content: center;
+    align-items: center;
+   background-color: whitesmoke;
+    width: 100%;
+ 
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
+}
+#bord {
+    border: 2px solid black;
+ display: none;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 45vh;
+    margin-top: 5%;
+   
+}
+.carre1{
+    background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2024/08/564350149.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.carre2{
+    background-image: url("https://media.istockphoto.com/id/482206266/fr/photo/dans-la-mecque-kaaba.jpg?s=612x612&w=0&k=20&c=hSBWNTjtfSZJthX6fG1dhucV3hT5ulOueAxcQjafOc4=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.choix{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: whitesmoke;
+    width: 100%;
+ 
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
+}
+#bord {
+    border: 2px solid black;
+ 
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 45vh;
+    margin-top: 5%;
+   
+}
+.carre1{
+    background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2024/08/564350149.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.carre2{
+    background-image: url("https://media.istockphoto.com/id/482206266/fr/photo/dans-la-mecque-kaaba.jpg?s=612x612&w=0&k=20&c=hSBWNTjtfSZJthX6fG1dhucV3hT5ulOueAxcQjafOc4=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p6{
+    margin-top: 5%;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+p4{
+    display: flex;
+    color: white;
+    font-size: 25px;
+margin-top: 5%;
+justify-content: center;
+align-items: center;
+   text-decoration: underline white;
+ 
+}
+
+
+
+
    
 }
 
