@@ -543,6 +543,27 @@ p6{
     justify-content: center;
     align-items: center;
  }
+ 
+.lala{
+    width: 20%;
+    border: none;
+padding: 2%;
+border-radius: 5%;
+color: black;
+font-size: 15px;
+background-color: white;
+}
+.lala1{
+    width: 20%;
+    border: none;
+padding: 2%;
+border-radius: 5%;
+color: white;
+font-size: 15px;
+background-color: black;
+}
+
+
 p4{
     display: flex;
     color: white;
@@ -553,9 +574,6 @@ align-items: center;
    text-decoration: underline white;
  
 }
-
-
-
 
    
 }
