@@ -231,6 +231,245 @@ display: none;
 
 }
 
+@media (min-width:1076px) and (max-width:1115px) {
+    * {
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+     
+    #kaaba {
+        width: 6%;
+    }
+     
+    .font {
+        background-color: rgb(0, 0, 0);
+     padding: 0%;
+    }
+     
+    .logo {
+        display: flex;
+    align-items: flex-start;
+        justify-content: flex-start;
+    }
+     
+    li {
+        display: flex;
+        list-style: none;
+        margin: 1%;
+        font-size: 20px;
+        font-family:Georgia;
+        text-decoration: none;
+    }
+     
+    .navb {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+       
+    }
+     
+    .btn3{
+       
+        display: none;
+     
+     
+    }
+     
+    a{
+      color: white;
+      text-decoration: underline black;
+    }
+     
+     
+    .bb{
+        width: 20%;
+        background-color:  rgb(0, 0, 0);
+        align-items: center;
+        justify-content: center;
+        height: 8vh;
+        border-radius: 5%;
+        border: 3px solid white;
+        color: white !important;
+     
+    }
+     
+     
+    .non{
+        font-size: 25px;
+        color: whitesmoke;
+        font-family: "Dancing Script";
+        text-decoration: underline burlywood;
+    }
+     
+     
+    .img2{
+     
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+     
+     
+    }
+     
+     
+     
+    .tkt{
+        background-color: black;
+        display: flex;
+    }
+     
+     
+     #img2{
+        height: 80%;
+        background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
+        background-repeat: no-repeat;
+      width: 70%;
+      display: flex;
+      margin-top: 0%;
+      margin-left: 0%;
+    opacity: 100%;
+    border-radius: 20px;
+     
+     }
+     
+     
+     #text{
+        height:90%;
+      width: 90%;
+      border: 3px solid white;
+     
+      display: flex;
+    background-image: url("https://i.pinimg.com/736x/e7/d7/f1/e7d7f173aaf65b7528c337e1337f2899.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+      margin-left: 0%;
+     text-align: center;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      margin: 0%;
+     
+     }
+     
+     
+     h4{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: burlywood;
+        width: 70%;font-family: "Rubik";
+       
+        border: 4px solid white;
+        padding: 3%;
+        border-radius: 20px;
+       
+     }
+     .titrresp{
+        display: none;
+        justify-content: center;
+        align-items: center;
+       width: 100%;
+        font-family: "Dancing Script";
+    }
+     
+     p3{
+        color: white;
+        font-size: 30px;
+        font-family: "Rubik";
+       
+       
+     }
+    .t1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+       
+    }
+     
+     
+    .t2{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 50vh;
+    }
+     
+    p{
+      font-size: 24px;
+        font-family: "Rubik";
+       color: white;
+       opacity: 100%;
+       transition: opacity 0.5s ease-in-out, visibility 1.5s ease-in-out;
+       visibility: hidden;
+    }
+     
+    #btn1{
+       
+        width: 40%;
+        padding: 3%;
+        border: none;
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+        border-radius:20px;
+        font-size: 20px;
+        margin-top: 5%;
+        font-family: "Oswald";
+    }
+     
+    .ctrl{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .svv{
+        display: none;
+     }
+     .burger{
+     
+    display: none;
+       
+    }
+     
+     
+    .logoR{
+        display: none;
+    }
+    .Inscription{
+        display: none;
+    }
+     
+    .close{
+        display:none;
+       
+    }
+     
+    .Inscription{
+        display:none;
+    }
+     
+    .span{
+        display: none;
+    }
+     
+    .the{
+       
+        display: none;
+     
+     
+    }
+   
+}
+
 @media (min-width:955px) and (max-width:1075px) {
    
 
