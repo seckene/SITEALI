@@ -3,6 +3,7 @@ const svv =document.querySelector(".svv");
 const burger =document.querySelector(".burger");
 const closeee =document.querySelector(".close");
 const btn1 =document.querySelector("#btn1");
+const espase=document.querySelector('.espase')
 console.log(closeee);
 console.log(burger);
 console.log(svv);
@@ -31,8 +32,3 @@ closeee.addEventListener("click",()=>{
 })
 
 
-
-btn1.addEventListener("click",()=>{
-   btn1.className ="lolo";
-   
-})
