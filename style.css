@@ -230,6 +230,89 @@ display: none;
 
 
 }
+.choix{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: whitesmoke;
+    width: 100%;
+ 
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
+}
+#bord {
+    border: 2px solid black;
+ 
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 45vh;
+    margin-top: 5%;
+   
+}
+.carre1{
+    background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2024/08/564350149.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.carre2{
+    background-image: url("https://media.istockphoto.com/id/482206266/fr/photo/dans-la-mecque-kaaba.jpg?s=612x612&w=0&k=20&c=hSBWNTjtfSZJthX6fG1dhucV3hT5ulOueAxcQjafOc4=");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p6{
+    margin-top: 5%;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+.lala2{
+    width: 20%;
+    border: none;
+padding: 2%;
+border-radius: 5%;
+color: black;
+font-size: 15px;
+background-color: white;
+}
+.lala12{
+    width: 20%;
+    border: none;
+padding: 2%;
+border-radius: 5%;
+color: white;
+font-size: 15px;
+background-color: black;
+}
+
+
+p4{
+    display: flex;
+    color: white;
+    font-size: 25px;
+margin-top: 5%;
+justify-content: center;
+align-items: center;
+   text-decoration: underline white;
+ 
+}
+.btn4{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+ 
+}
 
 @media (min-width:1076px) and (max-width:2000px) {
     * {
@@ -467,113 +550,7 @@ display: none;
      
      
     }
-    
-.choix{
  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: whitesmoke;
-    width: 100%;
- 
-    gap: 40px;
-    grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
-}
-#bord {
-    border: 2px solid black;
-
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 45vh;
-    margin-top: 5%;
-   
-}
-.carre1{
-    background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2024/08/564350149.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-.carre2{
-    background-image: url("https://media.istockphoto.com/id/482206266/fr/photo/dans-la-mecque-kaaba.jpg?s=612x612&w=0&k=20&c=hSBWNTjtfSZJthX6fG1dhucV3hT5ulOueAxcQjafOc4=");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.choix{
- 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: whitesmoke;
-    width: 100%;
- 
-    gap: 40px;
-    grid-template-columns: repeat(2, 1fr);  /* 2 colonnes égales */
-}
-#bord {
-    border: 2px solid black;
- 
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 45vh;
-    margin-top: 5%;
-   
-}
-.carre1{
-    background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2024/08/564350149.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
-.carre2{
-    background-image: url("https://media.istockphoto.com/id/482206266/fr/photo/dans-la-mecque-kaaba.jpg?s=612x612&w=0&k=20&c=hSBWNTjtfSZJthX6fG1dhucV3hT5ulOueAxcQjafOc4=");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-p6{
-    margin-top: 5%;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- 
-.lala{
-    width: 20%;
-    border: none;
-padding: 2%;
-border-radius: 5%;
-color: black;
-font-size: 15px;
-background-color: white;
-}
-.lala1{
-    width: 20%;
-    border: none;
-padding: 2%;
-border-radius: 5%;
-color: white;
-font-size: 15px;
-background-color: black;
-}
-
-
-p4{
-    display: flex;
-    color: white;
-    font-size: 25px;
-margin-top: 5%;
-justify-content: center;
-align-items: center;
-   text-decoration: underline white;
- 
-}
 
    
 }
