@@ -332,8 +332,16 @@ background-color: rgba(0, 0, 0, 0.432);
 h5{
     font-size: 15px;
 color: white;
+
 }
 
+h6{
+    font-size: 15px;
+color: white;
+display: none;
+justify-content: center;
+align-items: center;
+}
 h00{
 
   display: none;
@@ -345,8 +353,8 @@ h00{
 
 .prot{
     font-size: 15px;
-    color: white;
-    background-color: black;
+    color: burlywood;
+    background-color: whitesmoke;
     border: none;
     width: 50%;
     padding: 5%;

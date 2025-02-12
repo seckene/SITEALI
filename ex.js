@@ -9,6 +9,8 @@ const Point2=document.querySelector('.p9');
 const NEXT =document.querySelector(".NEXT");
 const h00 =document.querySelector("h00");
 const btn5 =document.querySelector(".btn5")
+const h5 =document.querySelector("h5")
+const h6 =document.querySelector("h6")
 console.log(closeee);
 console.log(burger);
 console.log(svv);
@@ -41,17 +43,20 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     if (point1 && Point2) {
         point1.addEventListener("click",()=>{
-            point1.style.background="black"
-             Point2.style.background="white"
+            point1.style.border="2px solid black"
+             Point2.style.border="2px solid black"
+         
+
         })
 
     }
     Point2.addEventListener("click",()=>{
-        point1.style.background="white"
-         Point2.style.background="black"
+        point1.style.border="2px solid black"
+         Point2.style.border="2px solid black"
          h00.style.display="flex"
          btn5.style.display="none"
-
+    h5.style.display="none"
+    h6.style.display="flex"
     })
 
 
