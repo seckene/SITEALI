@@ -1525,7 +1525,7 @@ background-color: black;
        align-items: center;
        display: block;
    background-color: rgba(0, 0, 0, 0.582);
-   height: 60vh;
+   height: 50vh;
    width: 95%;
    }
    
@@ -1539,7 +1539,7 @@ background-color: black;
    }
    
    .btn3{
-       margin-top: 10%;
+       margin-top: 3%;
        display: flex;
        justify-content: center;
        align-items: center;
