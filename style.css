@@ -203,7 +203,9 @@ display: none;
     
 }
 
-
+.prot1234{
+    display: none;
+}
 .logoR{
     display: none;
 }
@@ -375,6 +377,7 @@ h00{
 .p9{
    
     width: 70%;
+    margin-top: 5%;
     padding: 5%;
     background-color: white;
     border: none;
@@ -386,6 +389,7 @@ h00{
     
     display: flex;
     margin-top: 10%;
+    margin-bottom: 10%;
     gap: 10px;
 
 }
@@ -1320,7 +1324,11 @@ background-color: black;
     
      border-radius: 0px;
     }
-    
+    h5{
+        font-size: 15px;
+    color: white;
+    margin-bottom: 2%;
+    }
     
     #text{
        height:120vh;
@@ -1538,15 +1546,7 @@ background-color: black;
        gap: 60px;
    }
    
-   .btn3{
-       margin-top: 3%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       gap: 20px;
-       width: 100%;
-   
-   }
+
    .lala{
        width: 40%;
        border: none;
@@ -1580,7 +1580,41 @@ background-color: black;
 }
     }
        
-
+    .anger{
+        display: block;
+        margin-top: 10%;
+    }
+    .angelique{
+        display: flex;
+        color: white;
+           display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: whitesmoke;
+        font-family: "Dancing Script";
+    }
+    .prot1234{
+        width: 20%;
+        color: white;
+        display: block;
+    }
+    .btn3{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    gap: 20px;
+        width: 100%;
+    
+    }
+    .btn5{
+        
+        display: block;
+        margin-top: 16%;
+        gap: 10px;
+    
+    }
     
        
 @media (min-width:350px) and (max-width:399px) {
@@ -1849,7 +1883,7 @@ p3{
     
  }
  p6{
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 20px;
     width: 100%;
     text-align: center;
@@ -1866,6 +1900,7 @@ margin-top: 5%;
 justify-content: center;
 align-items: center;
    text-decoration: underline white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .the{
@@ -1876,7 +1911,7 @@ align-items: center;
     align-items: center;
     display: block;
 background-color: rgba(0, 0, 0, 0.582);
-height: 60vh;
+height: 50vh;
 width: 95%;
 }
 
@@ -1889,15 +1924,18 @@ width: 95%;
     gap: 60px;
 }
 
-.btn3{
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
 
+.lala12{
+    width: 20%;
+    border: none;
+padding: 2%;
+border-radius: 5%;
+color: white;
+font-size: 15px;
+
+background-color: black;
 }
+
 .lala{
     width: 40%;
     border: none;
@@ -1922,8 +1960,46 @@ background-color: black;
     
    
 }
+.anger{
+    display: block;
+    margin-top: 10%;
+}
+.angelique{
+    display: flex;
+    color: white;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: "Dancing Script";
+}
+.prot1234{
+    width: 20%;
+    color: white;
+    display: block;
+}
+.btn3{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 20px;
+    width: 100%;
 
+}
+.btn5{
+    
+    display: block;
+    margin-top: 10%;
+    gap: 10px;
 
+}
+h5{
+    font-size: 15px;
+color: white;
+margin-bottom: 2%;
+}
     }
         
 @media (min-width:0px) and (max-width:349px) {
@@ -2333,6 +2409,46 @@ background-color: black;
         position:absolute;
         right: 0;
         margin-right: 5%;
+    }
+    .anger{
+        display: block;
+        margin-top: 10%;
+    }
+    .angelique{
+        display: flex;
+        color: white;
+           display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: whitesmoke;
+        font-family: "Dancing Script";
+    }
+    .prot1234{
+        width: 20%;
+        color: white;
+        display: block;
+    }
+    .btn3{
+        margin-top: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    gap: 20px;
+        width: 100%;
+    
+    }
+    .btn5{
+        
+        display: block;
+        margin-top: 10%;
+        gap: 10px;
+    
+    }
+    h5{
+        font-size: 15px;
+    color: white;
+    margin-bottom: 2%;
     }
 
     }
