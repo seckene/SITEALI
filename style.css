@@ -90,7 +90,7 @@ a{
 
  #img2{
     height: 100vh;
-    background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
+    background-image: url("");
     background-repeat: no-repeat;
   width: 100%;
   display: flex;
@@ -266,7 +266,7 @@ display: none;
 }
 
 p6{
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 20px;
     width: 100%;
     text-align: center;
@@ -294,6 +294,18 @@ color: white;
 font-size: 15px;
 background-color: black;
 }
+
+
+p18{
+    display: flex;
+    color: white;
+    font-size: 20px;
+margin-top: 2%;
+justify-content: center;
+align-items: center;
+   text-decoration: underline burlywood;
+}
+
 
 
 p4{
@@ -497,7 +509,7 @@ h00{
         height: 80%;
         background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
         background-repeat: no-repeat;
-      width: 70%;
+      width: 80%;
       display: flex;
       margin-top: 0%;
       margin-left: 0%;
@@ -1625,7 +1637,7 @@ background-color: black;
     }
     .font {
         background-color: rgb(0, 0, 0);
-     padding: 5%;
+     padding: 3%;
     }
     
     .logo {
@@ -1657,10 +1669,10 @@ background-color: black;
     
     
     #kaaba {
-        width: 10%;
+        width: 16%;
         position: absolute;
         left: 0;
-        margin-left: 1%;
+        margin-left: 0%;
         margin-top: 0%;
     }
     
@@ -1672,7 +1684,7 @@ background-color: black;
     }
     #img2{
         display: none;
-       height: 120vh;
+       height: 60vh;
        ;
        background-repeat: no-repeat;
        opacity: 80%;
@@ -1776,7 +1788,7 @@ background-color: black;
         align-items: center;
     }
     .bb1{
-        width: 1 00%;
+        width: 100%;
         background-color:rgba(255, 255, 255, 0.192);
         display: flex;
         align-items: center;
@@ -1883,8 +1895,8 @@ p3{
     
  }
  p6{
-    margin-top: 10%;
-    font-size: 20px;
+    margin-top: 15%;
+    font-size: 15px;
     width: 100%;
     text-align: center;
     color: white;
@@ -1895,7 +1907,7 @@ p3{
 p4{
     display: flex;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
 margin-top: 5%;
 justify-content: center;
 align-items: center;
@@ -1904,15 +1916,17 @@ align-items: center;
 
 }
 .the{
-    margin-top: 0%;
+    margin-top: 10%;
     margin-left: 0%;
-
+border-radius: 5%;
     justify-content: center;
     align-items: center;
     display: block;
-background-color: rgba(0, 0, 0, 0.582);
-height: 50vh;
+background-image: url("https://media.istockphoto.com/id/2161225506/photo/the-largest-clock-in-the-world-in-makkah.jpg?s=612x612&w=0&k=20&c=fkRysX6Mrkj1WR2Ooh03q1TzWsPbZkPC_cRXiub2GCE=");
+background-repeat: no-repeat;
+height: 48vh;
 width: 95%;
+border: 2px solid white;
 }
 
 .carte{
@@ -1980,7 +1994,7 @@ background-color: black;
     display: block;
 }
 .btn3{
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
