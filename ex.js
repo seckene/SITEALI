@@ -62,3 +62,8 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
 })
+
+btn1.addEventListener("click",()=>{
+    espase.style.display="flex";
+
+})

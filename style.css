@@ -237,7 +237,7 @@ display: none;
     display: flex;
     justify-content: center;
     align-items: center;
-   background-color:rgba(255, 241, 241, 0.747);
+   
     width: 100%;
  
     gap: 40px;
@@ -332,11 +332,12 @@ align-items: center;
 margin-top: 2%;
 
 width: 100%;
-background-color: rgba(0, 0, 0, 0.432);
+
     height: 45vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
+
 }
 
 .savant{
@@ -656,145 +657,29 @@ h00{
             display: none;
             
         }
-        
+        .savant{
 
+     
+            display: none;
+            
+        }
+        .espase{
+        
+             
+            display: none;
+            
+        }
+        
+        #btn1{
+display: none;
+        }
    
 }
 
-@media (min-width:955px) and (max-width:1075px) {
-   
-    .choix{
- 
-        display: none;
-        
-       
-    }
 
 
 
-
- 
- #img2{
-    height: 115vh;
-    background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
-    background-repeat: no-repeat;
-  width: 100%;
-  display: flex;
-  margin-top: 2%;
-  margin: 0.5%;
- 
-  border-radius: 20px;
- }
-
-
- #text{
-    height:115vh;
-  width: 95%;
-  border: 3px solid white;
-  
-  display: flex;
-background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-
-  margin-left: 0%;
- text-align: center;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  border-radius: 25px;
-  margin: 1%;
- }.svv{
-    display: none;
- }
-
-}
-
-@media (min-width:725px) and (max-width:955px) {
-   
-    .tkt{
-        background-color: black;
-        display: block;
-    }
- #img2{
-    height: 135vh;
-    background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  width: 100%;
-  display: flex;
-  margin-top: 2%;
-  margin: 0.5%;
- 
-  border-radius: 0px;
- }
-
-
- #text{
-    height:135vh;
-  width: 100%;
-  border: 3px solid white;
-  
-  display: flex;
-background-image: url("https://i.pinimg.com/736x/88/b6/ca/88b6cab5e667e1c4d8e34265fea0c538.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-
-  margin-left: 0%;
- text-align: center;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px;
-  margin: 1%;
- }
-
-    #btn1{
-    
-        width: 70%;
-        padding: 4%;
-        border: none;
-        background-color: black;
-        border: 2px solid white;
-        color: white;
-        border-radius:20px;
-        font-size: 20px;
-    
-    }
-    li {
-        display: flex;
-        list-style: none;
-        margin: 1%;
-        font-size: 15px;
-        font-family:Georgia;
-        text-decoration: none;
-    }
-    .svv{
-        display: none;
-     }
-     .choix{
- 
-        display: none;
-        
-       
-    }
-    .espase{
-
-     
-        display: none;
-        
-    }
-    .espase{
-
-     
-        display: none;
-        
-    }
-    
-
-   }
-   
-@media (min-width:695px) and (max-width:724px) {
+@media (min-width:695px) and (max-width:1075px) {
    
     .tkt{
         background-color: black;
@@ -808,7 +693,7 @@ p{
         width: 10%;
     }
     #img2{
-       height: 130vh;
+       height: 150vh;
        background-image: url("https://i.pinimg.com/736x/97/c5/50/97c550353ff7af95934be3d62549bfa7.jpg");
        background-repeat: no-repeat;
      width: 100%;
@@ -833,7 +718,7 @@ p{
         align-items: center;
      }
     #text{
-       height:130vh;
+       height:150vh;
      width: 100%;
      
      background-color: rgb(119, 116, 116);
@@ -936,21 +821,8 @@ p{
     
    
 }
-.espase{
 
-     
-    display: none;
-    
 }
-.espase{
-
-     
-    display: none;
-    
-}
-
-
-   }
 
       
 @media (min-width:536px) and (max-width:694px) {
@@ -962,6 +834,7 @@ p{
 .font {
     background-color: rgb(0, 0, 0);
  padding: 5%;
+  border-bottom: 4px solid white;
 }
 
 .logo {
@@ -1023,7 +896,7 @@ display: flex;
 
 
 #text{
-   height:120vh;
+   height:180vh;
  width: 90%;
  background-image: url("https://i.pinimg.com/736x/e7/d7/f1/e7d7f173aaf65b7528c337e1337f2899.jpg");
  background-color: rgb(119, 116, 116);
@@ -1217,7 +1090,7 @@ width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     width: 100%;
 
 }
@@ -1252,6 +1125,22 @@ background-color: black;
     
 }
 
+h5{
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+.espase{
+
+    margin-top: 8%;
+    
+    width: 100%;
+    
+        height: 45vh;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
 
 }
       
@@ -1278,6 +1167,7 @@ background-color: black;
     .font {
         background-color: rgb(0, 0, 0);
      padding: 5%;
+     border-bottom: 4px solid white;
     }
     
     .logo {
@@ -1638,6 +1528,7 @@ background-color: black;
     .font {
         background-color: rgb(0, 0, 0);
      padding: 3%;
+     border-bottom: 2px solid white;
     }
     
     .logo {
@@ -1916,7 +1807,7 @@ align-items: center;
 
 }
 .the{
-    margin-top: 10%;
+    margin-top: 30%;
     margin-left: 0%;
 border-radius: 5%;
     justify-content: center;
@@ -1924,7 +1815,7 @@ border-radius: 5%;
     display: block;
 background-image: url("https://media.istockphoto.com/id/2161225506/photo/the-largest-clock-in-the-world-in-makkah.jpg?s=612x612&w=0&k=20&c=fkRysX6Mrkj1WR2Ooh03q1TzWsPbZkPC_cRXiub2GCE=");
 background-repeat: no-repeat;
-height: 48vh;
+height: 55vh;
 width: 95%;
 border: 2px solid white;
 }
@@ -2025,6 +1916,7 @@ margin-bottom: 2%;
     .font {
         background-color: rgb(0, 0, 0);
      padding: 5%;
+     border-bottom: 2px solid white;
     }
     
     .logo {
@@ -2464,5 +2356,11 @@ background-color: black;
     color: white;
     margin-bottom: 2%;
     }
-
+  
+    .espase{
+    
+         
+        display: none;
+        
+    }
     }
