@@ -329,7 +329,7 @@ align-items: center;
 }
 .espase{
 
-margin-top: 2%;
+margin-top: 10%;
 
 width: 100%;
 
@@ -343,6 +343,7 @@ width: 100%;
 .savant{
     display: block;
     width: 100%;
+
 }
 h5{
     font-size: 15px;
@@ -358,12 +359,15 @@ justify-content: center;
 align-items: center;
 }
 h00{
-
+    scrollbar-width: auto;
+overflow-x: auto;
   display: none;
   gap: 10px;
   justify-content: center;
   align-items: center;
   margin-top: 5%;
+  flex-wrap: wrap;
+  
 }
 
 .prot{
@@ -371,7 +375,7 @@ h00{
     color: burlywood;
     background-color: whitesmoke;
     border: none;
-    width: 50%;
+    width: 30%;
     padding: 5%;
     border-radius: 20px;
   
@@ -1592,7 +1596,7 @@ h5{
     
     
     #text{
-       height:160vh;
+       height:150vh;
      width: 90%;
      background-image: url("https://i.pinimg.com/736x/e7/d7/f1/e7d7f173aaf65b7528c337e1337f2899.jpg");
      background-repeat: no-repeat;

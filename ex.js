@@ -11,6 +11,7 @@ const h00 =document.querySelector("h00");
 const btn5 =document.querySelector(".btn5")
 const h5 =document.querySelector("h5")
 const h6 =document.querySelector("h6")
+const prot =document.querySelector(".prot")
 console.log(closeee);
 console.log(burger);
 console.log(svv);
@@ -66,4 +67,11 @@ document.addEventListener("DOMContentLoaded",()=>{
 btn1.addEventListener("click",()=>{
     espase.style.display="flex";
 
+})
+
+
+prot.addEventListener("click",()=>{
+    prot.style.background="black"
+    prot.style.color="white"
+    prot.style.border="2px solid white"
 })
