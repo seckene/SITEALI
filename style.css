@@ -15,7 +15,11 @@ text-align: center;
 }
 .titre{
     margin-left: 5%;
-    color: white;
+    font-size: 1.5rem;
+    font-family: "Boldonse";
+    color: rgb(238, 185, 117);
+    text-decoration: underline;
+    
 }
 .logetnom{
     display: flex ;
@@ -48,7 +52,7 @@ margin: 0.2%;
 
 .droit{
 width: 40%;
-background-color:whitesmoke;
+background-color:black;
 height: 34rem;
 
 }
@@ -63,7 +67,7 @@ height: 34rem;
 }
 
 .text2{
-    color: black;
+    color: #a79f8f;
     height: 70%;
     display: flex;
     justify-content: center;
@@ -74,20 +78,256 @@ height: 34rem;
 .text3{
     height: 10%;
     display: flex;
-
+    margin-top: 10%;
     justify-content: space-evenly;
 }
 button{
     width: 40%;
     border: none;
     background-color: white;
-    border: 2px solid black;
+    border-radius:10%;
+ font-family: "Boldonse";
     color: rgb(238, 185, 117);
 }
 
 .tex4{
-    margin-top: 10%;
-width:80%;
+  
+width:80%;  
+margin-top: 10%;
+
 text-align: center;
 font-size: 1.5rem;
+}
+
+.boss{
+ display: none;
+}
+.fab{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+@media (min-width: 990px) and (max-width: 1075px) { 
+    .text3{
+        margin-top: 20%;   
+    }
+    .tex4{
+        margin-top: 5%;
+        }
+ }
+ 
+@media (min-width: 600px) and (max-width: 990px) { 
+   
+    .ctrl{
+        display: block;
+        margin: 0%;
+        }  
+        .droit{
+            width: 100%;
+            }
+            
+            .gauche{
+                width: 100%;
+                height: 38rem;
+            }
+
+            .text3{
+                margin-top: 4%;
+                height: 15%;
+            }
+            .text2{
+                margin-bottom: 0%;
+            }
+            .tex4{
+  
+                width:70%;  
+                margin-top: 10%;
+                
+                }
+                .gauche{
+                    height: 38rem;
+                }
+
+                .titre{
+                    font-size: 1.2rem;
+                }
+                .reste{
+                    font-size: 1.2rem;
+                }
+                .titre{
+                    font-size: 0.9rem;
+                }
+                .logetnom{
+                    width: 38%;
+                }
+ }
+ @media (min-width: 500px) and (max-width: 599px) { 
+   
+    .ctrl{
+        display: block;
+        margin: 0%;
+        }  
+        .droit{
+            width: 100%;
+            height: 38rem;
+            }
+            
+            
+            .text3{
+                margin-top: 8%;
+                height: 10%;
+            }
+            .text2{
+                margin-bottom: 0%;
+            }
+            .tex4{
+  
+                width:70%;  
+                margin-top: 10%;
+                
+                }
+                .gauche{
+                    width: 100%;
+                    height: 38rem;
+                    
+                }
+
+                .titre{
+                    font-size: 1.2rem;
+                }
+           
+                .titre{
+                    font-size: 0.9rem;
+                }
+                .logetnom{
+                    width: 100%;
+                    margin-right: 30%;
+                }
+                .reste{
+                   
+                    font-size: 1.5rem;
+                    height: 2vh;
+                    align-items: center;
+                    display: none;
+                 
+                  
+                }
+
+            
+                .navb{
+                    display: flex;
+                   justify-content:space-evenly;
+                }
+
+                .fab{
+                    display: block;
+                    justify-content: space-evenly;
+                    width: 100%;
+                    background-color:black;
+                    height: 90vh;
+                }
+
+                #ays{
+                    justify-content: center;
+                    align-items: center;
+                   text-align: center;
+                   margin-top: 20%;
+                   margin-bottom: 50%;
+                    
+                }
+                
+                .boss{
+                    display: flex;
+                    margin-right: 5%;
+                }
+
+
+                a{
+                    margin-top: 10%;
+                }
+                
+}
+@media (min-width: 230px) and (max-width: 499px) { 
+   
+    .ctrl{
+        display: block;
+        margin: 0%;
+        }  
+        .droit{
+            width: 100%;
+            height: 38rem;
+            }
+            
+            
+            .text3{
+                margin-top: 8%;
+                height: 10%;
+            }
+            .text2{
+                margin-bottom: 0%;
+            }
+            .tex4{
+  
+                width:70%;  
+                margin-top: 10%;
+                
+                }
+                .gauche{
+                    width: 100%;
+                    height: 38rem;
+                    
+                }
+
+                .titre{
+                    font-size: 1.2rem;
+                }
+           
+                .titre{
+                    font-size: 0.9rem;
+                }
+                .logetnom{
+                    width: 100%;
+                    margin-right: 30%;
+                }
+                .reste{
+                   
+                    font-size: 1.5rem;
+                    height: 2vh;
+                    align-items: center;
+                    display: none;
+                 
+                  
+                }
+
+            
+                .navb{
+                    display: flex;
+                   justify-content:space-evenly;
+                }
+
+                .fab{
+                    display: block;
+                    justify-content: space-evenly;
+                    width: 100%;
+                    background-color:black;
+                    height: 90vh;
+                }
+
+                #ays{
+                    justify-content: center;
+                    align-items: center;
+                   text-align: center;
+                   margin-top: 20%;
+                   margin-bottom: 50%;
+                    
+                }
+                
+                .boss{
+                    display: flex;
+                    margin-right: 5%;
+                }
+
+                
 }
