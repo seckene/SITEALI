@@ -107,13 +107,19 @@ font-size: 1.5rem;
     justify-content: space-evenly;
     width: 100%;
 }
-@media (min-width: 1400px) and (max-width: 2000px) { 
+@media (min-width: 1400px) and (max-width: 2500px) { 
     .droit{
-        height: 40%;
+        height: 60%;
         }
         
         .gauche{
-            height: 40%;
+            height: 60%;
+        }
+        .text3{
+            margin-top: 0%;
+        }
+        .navb{
+            padding: 2rem;
         }
 }
 
