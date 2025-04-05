@@ -380,12 +380,12 @@ font-size: 1.5rem;
         }  
         .droit{
             width: 100%;
-            height: 36rem;
+            height: 30rem;
             }
             
             
             .text3{
-                margin-top: 20%;
+                margin-top: 5%;
                 height: 10%;
             }
             .text2{
@@ -395,14 +395,14 @@ font-size: 1.5rem;
   
                 width:80%;  
                 margin-top: 10%;
-                margin-bottom: 5%;
-                font-size: 1.2rem;
+                margin-bottom: 0%;
+                font-size: 1rem;
                 
                 }
                 .gauche{
                     width: 100%;
                     height: 43rem;
-                    
+                    /* background-size:cover ; */
                 }
 
                 
