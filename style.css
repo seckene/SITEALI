@@ -113,7 +113,7 @@ font-size: 1.5rem;
     display: none;
 }
 .goos{
-
+border: 3px solid black;
     height: 30rem;
     width: 50%;
     margin-top: 2%;
@@ -191,6 +191,17 @@ margin-top: 20%;
     justify-content: center;
 text-align: center;
 margin-top: 10%;
+}
+.goos2{
+    border: 3px solid black;
+    height: 30rem;
+    width: 50%;
+    margin-top: 2%;
+    display: block;
+ background-image: url("https://omraprivee.com/wp-content/uploads/2024/04/illuminated-minaret-symbolizes-spirituality-famous-blue-mosque-generated-by-ai-scaled.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+border-radius: 1rem;
 }
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
