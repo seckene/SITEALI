@@ -137,10 +137,12 @@ span{
     margin-top: 4%;
     text-decoration: underline burlywood;
     margin-left: 5%;
+    font-family: "Oswald";
  
 }
 .Omra2025{
   margin-right: 1.5%;
+  
  
 }
 
@@ -151,6 +153,7 @@ span{
     margin-top: 2%;
     margin-left: 10%;
     text-decoration: underline burlywood;
+    font-family: "Oswald";
 }
 .trois{
     display: flex;
@@ -158,8 +161,37 @@ span{
     color: white;
     margin-top: 2%;
     margin-left: 2%;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 16%;
 }        
+.rond{
+    background-color: black;
+    border: 1px solid burlywood;
+    height: 25vh;
+    width: 28%;
+    font-family: "Oswald";
+    margin-left: 72%;
+    border-radius: 10%;
+}
+.pad{
+    padding-top: 20%;
+}
+.quatre{
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+text-align: center;
+margin-top: 20%;
+}
+.cinque{
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+text-align: center;
+margin-top: 10%;
+}
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
         height: 60rem;
