@@ -372,7 +372,7 @@ font-size: 1.5rem;
                 
 }
 
-@media (min-width: 230px) and (max-width: 429px) { 
+@media (min-width: 300px) and (max-width: 429px) { 
    
     .ctrl{
         display: block;
@@ -380,12 +380,12 @@ font-size: 1.5rem;
         }  
         .droit{
             width: 100%;
-            height: 43rem;
+            height: 36rem;
             }
             
             
             .text3{
-                margin-top: 30%;
+                margin-top: 10%;
                 height: 10%;
             }
             .text2{
@@ -393,8 +393,9 @@ font-size: 1.5rem;
             }
             .tex4{
   
-                width:70%;  
+                width:80%;  
                 margin-top: 10%;
+                font-size: 1.2rem;
                 
                 }
                 .gauche{
@@ -410,7 +411,7 @@ font-size: 1.5rem;
                 }
                 .logetnom{
                     width: 100%;
-                    margin-right: 30%;
+                    margin-right: 15%;
                 }
                 .reste{
                    
