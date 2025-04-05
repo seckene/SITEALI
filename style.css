@@ -112,6 +112,20 @@ font-size: 1.5rem;
 .croix{
     display: none;
 }
+.goos{
+    border: 2px solid black;
+    height: 30rem;
+    width: 50%;
+    margin-top: 2%;
+    display: block;
+  background-color: black;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
