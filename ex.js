@@ -10,3 +10,9 @@ burger.addEventListener("click",()=>{
 
 
 
+let croix =document.querySelector(".croix")
+
+croix.addEventListener("click",()=>{
+  burger.style.display="flex"
+    reste.style.display= "none" ;   
+})

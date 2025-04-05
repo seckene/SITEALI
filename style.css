@@ -365,6 +365,8 @@ font-size: 1.5rem;
                 height: 5%;
                 border-radius: 3%;
                 border:none ;
+                background-color: black;
+                color: white;
                 display: block;
               }
               .boss{
