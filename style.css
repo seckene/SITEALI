@@ -142,6 +142,18 @@ border: 3px solid black;
 border-radius: 1rem;
 
 }
+.goos1{
+    border: 3px solid black;
+        height: 30rem;
+        width: 50%;
+        margin-top: 2%;
+        display: block;
+     background-image: url("https://www.challenges.fr/_ipx/f_webp&enlarge_true&fit_cover&s_680x420/https://challenges.fr/static/s3fs-public/2020-06/coronavirus-le-hadj-sera-limite-cette-annee-a-1-000.jpg%3FVersionId=F.rInOlwfhAUcZx1Yfq3AtTWxjqdHXEm");
+     background-repeat: no-repeat;
+     background-size: cover;
+    border-radius: 1rem;
+    
+    }
 .centre{
     display: flex;
     justify-content: center;
@@ -220,6 +232,58 @@ h1{
     color: burlywood;
     font-family:'Times New Roman', Times, serif;
 }
+
+#www{
+    display: flex;
+    justify-content: center;
+ margin-top: 5%;
+}
+.goos2{
+    border: 3px solid black;
+        height: 30rem;
+        width: 40%;
+        margin-top: 2%;
+        display: block;
+     background-image: url("https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/Jordanian%20passport.jpg.jpg?itok=U0ViXGUK");
+     background-repeat: no-repeat;
+     background-size: cover;
+    border-radius: 1rem;
+    margin: 2%;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+    
+    }
+    .goos3{
+        border: 3px solid black;
+            height: 30rem;
+            width: 40%;
+            margin-top: 2%;
+            display: block;
+         background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2025/02/OMRA-2025-3-1024x1024.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+        border-radius: 1rem;
+        margin: 2%;
+        
+        }
+        h2{
+            font-size: 2rem;
+            justify-content: center;
+           text-align: center;
+           color: #a79f8f;
+           text-decoration: underline burlywood;
+           margin-top: 10%;
+           margin-bottom: 10%;
+           font-family: "Boldonse";
+        }
+.passtext{
+    font-size: 1rem;
+    color: white;
+    font-family: "Boldonse";
+    visibility: hidden;
+}
+   
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
         height: 60rem;
@@ -267,6 +331,25 @@ h1{
             width: 35%;
             margin-left: 65%;
         }
+         .goos2{
+                                height: 25em;
+                                width: 50%;
+                                margin-bottom: 10%;
+                            }
+                            .goos3{
+                                height: 25rem;
+                                width: 50%;
+                            }
+                         
+                            h2{
+                                font-size: 2rem;
+                                justify-content: center;
+                               text-align: center;
+                               color: #a79f8f;
+                               text-decoration: underline burlywood;
+                               margin-top: 10%;
+                               margin-bottom: 10%;
+                            }
  }
  
 @media (min-width: 600px) and (max-width: 990px) { 
@@ -327,6 +410,29 @@ h1{
                         } 
                         .quatre{
                             margin-top: 8%;
+                            }
+                            .goos1{
+                                height: 25rem;
+                                width: 95%;
+                            }
+                            .goos2{
+                                height: 20em;
+                                width: 50%;
+                                margin-bottom: 10%;
+                            }
+                            .goos3{
+                                height: 20rem;
+                                width: 50%;
+                            }
+                         
+                            h2{
+                                font-size: 2rem;
+                                justify-content: center;
+                               text-align: center;
+                               color: #a79f8f;
+                               text-decoration: underline burlywood;
+                               margin-top: 10%;
+                               margin-bottom: 10%;
                             }
  }
 
@@ -436,6 +542,29 @@ h1{
                         .quatre{
                             margin-top: 8%;
                             }
+                            .goos1{
+                                height: 25rem;
+                                width: 95%;
+                            }
+                            .goos2{
+                                height: 15em;
+                                width: 50%;
+                                margin-bottom: 10%;
+                            }
+                            .goos3{
+                                height: 15rem;
+                                width: 50%;
+                            }
+                         
+                            h2{
+                                font-size: 2rem;
+                                justify-content: center;
+                               text-align: center;
+                               color: #a79f8f;
+                               text-decoration: underline burlywood;
+                               margin-top: 10%;
+                               margin-bottom: 10%;
+                            }
 
             
 }
@@ -543,7 +672,35 @@ h1{
                         .quatre{
                             margin-top: 8%;
                             }
+                            .goos1{
+                                height: 25rem;
+                                width: 95%;
+                            }
+                            .goos2{
+                                height: 20em;
+                                width: 95%;
+                                margin-bottom: 10%;
+                            }
+                            .goos3{
+                                height: 22rem;
+                                width:95%;
+                            }
+                            #www{
+                             
+                                flex-wrap: wrap;
+                            
+                            }
+                            h2{
+                                font-size: 2rem;
+                                justify-content: center;
+                               text-align: center;
+                               color: #a79f8f;
+                               text-decoration: underline burlywood;
+                               margin-top: 10%;
+                               margin-bottom: 10%;
+                            }
             }
+
                 
 
 
@@ -576,7 +733,7 @@ h1{
                 }
                 .gauche{
                     width: 100%;
-                    height: 30rem;
+                    height: 25rem;
                     border-radius:  2rem;
                 
                     margin-right: 2%;
@@ -665,4 +822,36 @@ h1{
                             width: 40%;
                             
                         }
+                        .goos1{
+                                height: 25rem;
+                                width: 95%;
+                            }
+                            .goos2{
+                                height: 18em;
+                                width: 95%;
+                                margin-bottom: 10%;
+                            }
+                            .goos3{
+                                height: 18rem;
+                                width: 95%;
+                            }
+                            #www{
+                             flex-wrap: wrap;
+                              
+                            }
+                            h2{
+                                font-size: 1.5rem;
+                                justify-content: center;
+                               text-align: center;
+                               color: burlywood;
+                               text-decoration: underline #a79f8f;
+                               margin-top: 20%;
+                               margin-bottom: 10%;
+                              font-family: "Boldonse";
+                            }
+                            .Omra20255{
+                                font-size: 2rem;
+                                
+                               
+                              }
 }
