@@ -210,7 +210,16 @@ margin-top: 20%;
 text-align: center;
 margin-top: 10%;
 }
-
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5%;
+    margin-top:5%;
+    text-decoration: underline #a79f8f;
+    color: burlywood;
+    font-family:'Times New Roman', Times, serif;
+}
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
         height: 60rem;
@@ -648,5 +657,12 @@ margin-top: 10%;
                     } 
                     .quatre{
                         margin-top: 8%;
+                        }
+                        .text33{
+                            margin-bottom: 10%;
+                        }
+                        .chef1{
+                            width: 40%;
+                            
                         }
 }
