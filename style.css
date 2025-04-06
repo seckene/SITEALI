@@ -63,6 +63,7 @@ height: 34rem;
     background-image: url("https://rp-cms.imgix.net/wp-content/uploads/sam-riz-ceNCWYqL8DY-unsplash-scaled.jpg?fit=max");
     background-repeat: no-repeat;
     background-size: cover;
+    border: 3px solid black;
     border-radius: 0px 2rem 2rem 0px   ;
 
 }
@@ -118,7 +119,7 @@ border: 3px solid black;
     width: 50%;
     margin-top: 2%;
     display: block;
- background-image: url("https://www.tawaf.fr/wp-content/uploads/2024/09/image-11.png");
+ background-image: url("https://omraprivee.com/wp-content/uploads/2024/04/illuminated-minaret-symbolizes-spirituality-famous-blue-mosque-generated-by-ai-scaled.jpg");
  background-repeat: no-repeat;
  background-size: cover;
 border-radius: 1rem;
@@ -192,17 +193,7 @@ margin-top: 20%;
 text-align: center;
 margin-top: 10%;
 }
-.goos2{
-    border: 3px solid black;
-    height: 30rem;
-    width: 50%;
-    margin-top: 2%;
-    display: block;
- background-image: url("https://omraprivee.com/wp-content/uploads/2024/04/illuminated-minaret-symbolizes-spirituality-famous-blue-mosque-generated-by-ai-scaled.jpg");
- background-repeat: no-repeat;
- background-size: cover;
-border-radius: 1rem;
-}
+
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
         height: 60rem;
@@ -223,6 +214,19 @@ border-radius: 1rem;
             text-align: center;
             font-size: 2rem;
             }
+
+            .trois{
+            margin-bottom: 0%;
+            } 
+            .rond{
+                height: 17vh;
+            }
+            .quatre{
+            margin-top: 10%;
+            }
+            .goos{
+                height: 35rem;
+            }
 }
 
 @media (min-width: 990px) and (max-width: 1075px) { 
@@ -231,6 +235,11 @@ border-radius: 1rem;
     }
     .tex4{
         margin-top: 5%;
+        }
+        .rond{
+            height: 35vh;
+            width: 35%;
+            margin-left: 65%;
         }
  }
  
@@ -278,7 +287,23 @@ border-radius: 1rem;
                 .logetnom{
                     width: 38%;
                 }
+                .rond{
+                    height: 30vh;
+                    width: 43%;
+                    margin-left: 2%;
+                }
+                .goos{
+                        height: 30rem;
+                        width: 80%;
+                    }
+                    .trois{
+                        margin-bottom: 5%;
+                        } 
+                        .quatre{
+                            margin-top: 8%;
+                            }
  }
+
  @media (min-width: 500px) and (max-width: 599px) { 
    
     .ctrl{
@@ -370,7 +395,21 @@ border-radius: 1rem;
                     display: flex;
                     margin-right: 5%;
                 }
-
+                .rond{
+                    height: 30vh;
+                    width: 43%;
+                    margin-left: 2%;
+                }
+                .goos{
+                        height: 30rem;
+                        width: 90%;
+                    }
+                    .trois{
+                        margin-bottom: 5%;
+                        } 
+                        .quatre{
+                            margin-top: 8%;
+                            }
 
             
 }
@@ -463,8 +502,24 @@ border-radius: 1rem;
                 display: flex;
                 margin-right: 5%;
             }
+                .rond{
+                    height: 30vh;
+                    width: 43%;
+                    margin-left: 2%;
+                }
+                .goos{
+                        height: 25rem;
+                        width: 95%;
+                    }
+                    .trois{
+                        margin-bottom: 5%;
+                        } 
+                        .quatre{
+                            margin-top: 8%;
+                            }
+            }
                 
-}
+
 
 @media (min-width: 300px) and (max-width: 429px) { 
    
@@ -560,10 +615,21 @@ border-radius: 1rem;
                 display: flex;
                 margin-right: 5%;
             }
-            .goos{
-                
-                height: 20rem;
-                width: 90%;
-               
+
+            .rond{
+                height: 20vh;
+                width: 60%;
+                margin-left: 2%;
             }
+            .goos{
+                    height: 21rem;
+                    width: 95%;
+                }
+                .trois{
+                    margin-bottom: 2%;
+                    font-size: 1.2rem;
+                    } 
+                    .quatre{
+                        margin-top: 8%;
+                        }
 }
