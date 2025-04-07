@@ -16,10 +16,13 @@ croix.addEventListener("click",()=>{
   burger.style.display="flex"
     reste.style.display= "none" ;   
 })
-
-
+let Omra20255=document.querySelector(".Omra20255")
+let goos2=document.querySelector(".goos2")
+console.log(goos2)
 let passtext = document.querySelector(".passtext");
+console.log(passtext)
+goos2.addEventListener("mouseover", (e) => {
+    passtext.style. display= "flex";
 
-passtext.addEventListener("mouseover", (e) => {
-    passtext.style.visibility = "visible";
+    Omra20255.style.visibility = "hidden";
 });

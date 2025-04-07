@@ -170,6 +170,15 @@ span{
     font-family: "Oswald";
  
 }
+.Omra20255{
+    display: flex;
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 4%;
+    text-decoration: underline burlywood;
+    margin-left: 5%;
+    font-family: "Oswald";
+}
 .Omra2025{
   margin-right: 1.5%;
   
@@ -241,7 +250,7 @@ h1{
 .goos2{
     border: 3px solid black;
         height: 30rem;
-        width: 40%;
+        width: 50%;
         margin-top: 2%;
         display: block;
      background-image: url("https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/Jordanian%20passport.jpg.jpg?itok=U0ViXGUK");
@@ -257,7 +266,7 @@ h1{
     .goos3{
         border: 3px solid black;
             height: 30rem;
-            width: 40%;
+            width: 50%;
             margin-top: 2%;
             display: block;
          background-image: url("https://www.alhayat-voyages.com/wp-content/uploads/2025/02/OMRA-2025-3-1024x1024.png");
@@ -265,6 +274,9 @@ h1{
          background-size: cover;
         border-radius: 1rem;
         margin: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
         }
         h2{
@@ -278,12 +290,16 @@ h1{
            font-family: "Boldonse";
         }
 .passtext{
-    font-size: 1rem;
+    font-size: 0.8rem;
+  
     color: white;
     font-family: "Boldonse";
-    visibility: hidden;
+    display: none;
+
 }
-   
+.container:hover .passtext {
+    visibility: visible;
+}
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
         height: 60rem;
@@ -317,6 +333,14 @@ h1{
             .goos{
                 height: 35rem;
             }
+            .goos2{
+                    height: 35rem;
+                    width: 50%;   
+                }
+                .goos3{
+                        height: 35rem;
+                        width: 50%;
+                    }
 }
 
 @media (min-width: 990px) and (max-width: 1075px) { 
