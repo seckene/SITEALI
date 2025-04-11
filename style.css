@@ -904,7 +904,7 @@ margin-top: 4%;
                               footer{
                                 margin-top: 2%;
                                 background-color: black;
-                                height: 15rem;
+                                height: 10rem;
                                 
                             }
                             .foll{
@@ -916,10 +916,10 @@ margin-top: 4%;
                             }
                               .spra{
                                 color: aliceblue;
-                                display: block;
-                                
+                                display: flex;
+                                margin-top: 2%;
                                 font-family: "Boldonse";
-                                font-size: 0.8rem;
+                                font-size: 0.5rem;
                             }
                             .voix{
                                 
