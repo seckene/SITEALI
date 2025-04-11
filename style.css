@@ -304,7 +304,7 @@ h1{
 footer{
     margin-top: 2%;
     background-color: black;
-    height: 6rem;
+    height: 12rem;
 }
 .foll{
     margin-top: 2%;
@@ -315,6 +315,19 @@ footer{
     justify-content: space-evenly;
     font-family: "Boldonse";
     font-size: 0.6rem;
+}
+.sprat{
+margin-top: 4%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Boldonse";
+ 
+}
+.foll2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .voix{
       display: none;
@@ -353,11 +366,11 @@ footer{
                 height: 35rem;
             }
             .goos2{
-                    height: 35rem;
+                    height: 30rem;
                     width: 50%;   
                 }
                 .goos3{
-                        height: 35rem;
+                        height: 30rem;
                         width: 50%;
                     }
 }
@@ -900,7 +913,7 @@ footer{
                               footer{
                                 margin-top: 2%;
                                 background-color: black;
-                                height: 10rem;
+                                height: 15rem;
                                 
                             }
                             .foll{
