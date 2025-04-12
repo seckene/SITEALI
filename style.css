@@ -239,7 +239,7 @@ h1{
     font-size: 2.5rem;
     text-decoration: underline #a79f8f;
     color: burlywood;
-    font-family: "Permanent Marker";
+    font-family: "Oswald";
 }
 
 #www{
@@ -286,7 +286,8 @@ h1{
            color: #a79f8f;
            text-decoration: underline burlywood;
            margin-top: 10%;
-           margin-bottom: 10%;
+           margin-bottom: 5%;
+
            font-family: "Permanent Marker";
            
         }
@@ -305,7 +306,7 @@ h1{
 footer{
     margin-top: 2%;
     background-color: black;
-    height: 15rem;
+    height: 20rem;
 }
 .foll{
     margin-top: 2%;
@@ -339,7 +340,26 @@ h4{
     font-size: 1rem;
     color: white;
     text-align: center;
+   
 }
+
+.lol{
+    padding: 2%;
+}
+
+.tex444{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    }
+    .tex44{
+        width:80%;  
+        font-size: 1rem;
+        font-family: "Boldonse";
+        color: #a79f8f;
+        }
+    
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
         height: 60rem;
@@ -871,7 +891,7 @@ h4{
                     width: 95%;
                 }
                 .trois{
-                    margin-bottom: 2%;
+                    margin-bottom: 5%;
                     font-size: 1.2rem;
                     } 
                     .quatre{
@@ -914,7 +934,7 @@ h4{
                                
                               }
                               footer{
-                                margin-top: 2%;
+                                margin-top: 15%;
                                 background-color: black;
                                 height: 12rem;
                                 
@@ -938,4 +958,11 @@ h4{
                                 margin-bottom: 4%;
 
                             }
+                            
+                            .tex44{
+                                width:95%;  
+                                font-size: 0.8rem;
+                                font-family: "Boldonse";
+                                color: #a79f8f;
+                                }
 }
