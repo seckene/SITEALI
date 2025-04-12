@@ -5,7 +5,9 @@ console.log(reste)
 burger.addEventListener("click",()=>{
     reste.style.display= "block" ;
     burger.style.display="none"
-    
+    if (window.innerWidth<600) {
+        burger.style.display="none"
+     }
 })
 
 let croix =document.querySelector(".croix")
