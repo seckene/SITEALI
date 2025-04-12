@@ -1,11 +1,7 @@
-<?php
-
-
-
+<?php 
 var_dump($_POST)
-
-?> 
-
+echo "<p> message bienvenue vous pouve donc entrer sur notre site"
+?>
 
 
 <!DOCTYPE html>
@@ -18,7 +14,7 @@ var_dump($_POST)
 </head>
 <body>
   <div>
-    <form   action="" method="post">
+    <form method="post">
 
     <label for="nom">Nom complet</label>
       <input type="text" id="nom" name="nom" required>
