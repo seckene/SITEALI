@@ -1,3 +1,13 @@
+<?php
+
+
+
+var_dump($_POST)
+
+?> 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +18,7 @@
 </head>
 <body>
   <div>
-    <form action="inscription.php" method="post">
+    <form   action="" method="post">
 
     <label for="nom">Nom complet</label>
       <input type="text" id="nom" name="nom" required>
@@ -42,3 +52,4 @@
   </div>
 </body>
 </html>
+
