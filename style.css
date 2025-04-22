@@ -93,7 +93,7 @@ height: 34rem;
     width: 40%;
     border: none;
     background-color: white;
-    border:2px solid black;
+    
     border-radius:10%;
  font-family: "Boldonse";
     color: rgb(238, 185, 117);
@@ -103,7 +103,7 @@ height: 34rem;
     height: 3rem;
     border: none;
     background-color: white;
-    border:2px solid black;
+  
     border-radius:10%;
  font-family: "Boldonse";
     color: rgb(238, 185, 117);
@@ -291,7 +291,7 @@ h1{
            text-align: center;
            color: #a79f8f;
            text-decoration: underline burlywood;
-           margin-top: 10%;
+           margin-top: 9%;
            margin-bottom: 5%;
 
            font-family: "Permanent Marker";
@@ -365,7 +365,55 @@ h4{
         font-family: "Boldonse";
         color: #a79f8f;
         }
-    
+
+        
+        .salif{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5rem;
+          width: 100%;
+        }
+        
+        label{
+            display: block;
+        font-size: 0.6rem;
+        font-family:"boldonse";
+        
+        }
+form{
+    width: 80%;
+}
+
+
+        #nom{
+            height: 1.5rem;
+            width: 60%;
+        }
+        #cin{
+            height: 1.5rem;
+            width: 60%;
+        }
+        #date_naissance{
+            height: 1.5rem;
+            width: 60%;
+        }
+        #telephone{
+            width: 60%;
+        }
+        #email{
+            height: 1.5rem;
+            width: 60%;
+        }
+        #ville{
+            height: 1.5rem;
+            width: 60%;
+        }
+        #sexe{
+            height: 1.5rem;
+            width: 60%;
+        }
+
 @media (min-width: 1400px) and (max-width: 3000px) { 
     .droit{
         height: 60rem;
@@ -577,7 +625,7 @@ h4{
                     align-items: center;
                     display: none;
                  
-                  
+                    z-index:1;
                 }
 
             
@@ -706,7 +754,7 @@ h4{
                     align-items: center;
                     display: none;
                  width: 100%;
-                  
+                 z-index:1;
                 }
 
             
@@ -844,7 +892,7 @@ h4{
                     align-items: center;
                     display: none;
                  width: 100%;
-                  
+                 z-index:1;
                 }
 
             
@@ -859,6 +907,7 @@ h4{
                     width: 100%;
                     background-color:black;
                     height: 90vh;
+
                 }
                 #ays{
                     justify-content: center;
